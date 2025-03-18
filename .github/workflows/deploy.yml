@@ -27,7 +27,7 @@ jobs:
 #    runs-on: self-hosted  # Your K3s host must be connected as GitHub Runner
  #   needs: build
 
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Set up kubectl
